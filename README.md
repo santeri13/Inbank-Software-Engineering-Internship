@@ -26,7 +26,9 @@ In the review process, differences in parameters from the provided parameters in
 
 ## Remarks
 The task of implementing credit scores was not understandable if need to use the loan amount which is provided by the customer or the loan amount calculated by the backend.
+
 Examples of IDs that are used in the paper are different from those that are used in tests in the backend.
+
 In tasks, 2 was needed to implement an age restriction, but from the text, it was not clear if need to implement only an age restriction or also to add a field for providing the country from which the customer is and use it to find if the customer is old enough.
 
 ## Complains
