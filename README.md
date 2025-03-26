@@ -4,6 +4,7 @@ Task for internship on position Inbank Software Engineering Internship 2025 by S
 ## Task 1(TICKET-101)
 
 As part of the task scoring algorithm was implemented for calculating the credit score of the customers as the method getCreditScore(lines 117-118) and used in the calculateApprovedLoan method (lines 69-71) in DecisionEngine.java.
+
 Also, a decision engine was implemented to provide the maximum possible sum for a loan for the customer based on the provided ID, credit modifier, and loan sum provided by the customer.
 - By intern was integrated part which finds the suitable loan period based on the client's requested loan (line 59-61).
 - Also, a function was added to find the customers' credit score, which provided the error message "No valid loan found!" for the clients if the credit score is lower than 0.1 (lines 69-71).
