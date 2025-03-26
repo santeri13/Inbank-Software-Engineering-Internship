@@ -107,15 +107,15 @@ public class DecisionEngine {
     }
 
     /**
-     * Calculates the credit score of the customer using credit modifier, loan required by customer and loan period.
+     * Calculates the credit score of the customer using credit modifier, loan of customer and loan period.
      *
-     * @param creditModifier segment to which the customer belong.
-     * @param outputLoanAmount the maximum sum, regardless of the person requested loan amount.
+     * @param creditModifier Credit modifier of customer.
+     * @param loanAmount Customer loan amount.
      * @param loanPeriod Requested loan period.
      * @return Credit score which determine if customer receive loan or not.
      */
-    private double getCreditScore(double creditModifier,double outputLoanAmount,double loanPeriod) {
-        return ((creditModifier / outputLoanAmount) * loanPeriod) / 10.0;
+    private double getCreditScore(double creditModifier,double loanAmount,double loanPeriod) {
+        return ((creditModifier / loanAmount) * loanPeriod) / 10.0;
     }
 
     /**
